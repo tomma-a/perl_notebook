@@ -1,0 +1,2 @@
+FROM centos:7
+RUN dnf install -y  cpanminus perl-ExtUtils-Embed gcc gcc-c++ perl-devel && cpanm pp

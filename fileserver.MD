@@ -1,0 +1,1 @@
+pp -o fileserver -M Plack:: fileserver.pl && ./fileserver /etc
