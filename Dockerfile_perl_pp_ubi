@@ -1,0 +1,2 @@
+FROM registry.access.redhat.com/ubi8/ubi
+RUN dnf install -y  cpanminus gcc gcc-c++ perl-devel && cpanm pp
