@@ -3,7 +3,7 @@ use warnings;
 use Plack::App::Directory;
 use Plack::Runner;
 my $dir;
-$dir=shift @ARGV if($#ARGV>=1);
+$dir=shift @ARGV if($#ARGV>=0);
 if(!defined($dir) || ! -d $dir) {
         CORE::say("Dir is not set or doesn't exist!");
         exit -1;
